@@ -1,4 +1,4 @@
-# Should-I-Ask-Them-Out 🌹
+# [Should-I-Ask-Them-Out](https://shouldiask.vercel.app/) 🌹
 
 A funny decision tree website that helps users navigate question "Should I ask my crush out?" through an unnecessarily complex series of questions.
 
