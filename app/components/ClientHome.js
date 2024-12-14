@@ -73,7 +73,7 @@ const screens = {
 
   simplfied: {
     text: "Ask yourself these two questions.",
-    subheading: "1. What do I want out of this? (Date, hookup, casually date, have kids, etc.) \n 2. Is there any chance my crush will like me back?* \n *Ignore your answer to 2 And you should probably tell them anyways because you never know until you try. Don't let a website tell you want to do.",
+    subheading: "1. What do I want out of this? (Date, hookup, casually date, have kids, etc.) \n 2. Is there any chance my crush will like me back?* \n *Ignore your answer to 2 And you should probably tell them anyways because you never know until you try. Don't let a website tell you what to do.",
     buttons: [
       { label: "Go back to Home", nextScreen: "home"}
     ]
