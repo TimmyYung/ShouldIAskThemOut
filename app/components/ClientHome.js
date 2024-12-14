@@ -63,14 +63,14 @@ const screens = {
     text: "Ask yourself these two questions.",
     subheading: "1. What do I want out of this? (Date, hookup, casually date, have kids, etc.) \n 2. Is there any chance my crush will like me back?* \n *Ignore your answer to 2. And you should probably tell them anyways because you never know until you try. Don't let a website tell you want to do.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main"}
+      { label: "Go back to Home", nextScreen: "home"}
     ]
   },
 
   idk: {
     text: "Result: Find out!",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" },
+      { label: "Go back to Home", nextScreen: "home" },
     ]
   },
 
@@ -372,7 +372,7 @@ const screens = {
     text: "Result: Go tell them!",
     subheading: "But be prepared that it's going to make things pretty awkward if they don't like you. I'm really sorry but you should probably do it anyways for your mental clarity and for your mental health.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
@@ -380,21 +380,21 @@ const screens = {
     text: "Result: Yeaaah do it*",
     subheading: "*So long as your ok with the fact that getting together with your crush and/or potentially breaking up with them may/will change the dynamic of the friend group forever; breaking up the friend group.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
   donttellthem: {
     text: "Result: Don't tell them",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
   gotellthem: {
     text: "Result: Go tell them!",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
@@ -402,7 +402,7 @@ const screens = {
     text: (result) => `Result: ${result}`,
     buttons: [
       { label: "Calculate Again", nextScreen: "isitfucked" },
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
   
@@ -410,14 +410,14 @@ const screens = {
     text: "Result: I meaannnn I wouldn't tbh.",
     subheading: "The trade off isn't worth it anyways if your crush isn't gonna like you back. Like you just ruined two relationships in your life.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" },
+      { label: "Go back to Home", nextScreen: "home" },
     ]
   },
 
   shitshow: {
     text: "Result: Uuuuhhhhh tell them but it'll be a shitshow.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" },
+      { label: "Go back to Home", nextScreen: "home" },
     ]
   },
 
@@ -431,7 +431,7 @@ const screens = {
     text: "Result: Don't tell them because it's going to ruin the purpose they serve in your life rn.",
     subheading: "Which is like having something interesting to fantasize and crush about when you're like in a boring calculus class. And if you tell them, it's gonna ruin the magic for you and then it's also gonna make 8am on Wednesdays incredible uncomfortable.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
@@ -439,21 +439,21 @@ const screens = {
     text: "Result: Tell them!",
     subheading: "Either the best relationship of your life and you'll be married or make things incredibly awkward and uncomfortable for yourself everyday when you're forced to see them.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
   imweird: {
     text: "Result: If you do it, there is a 1% chance you'll get a promotion and a 99% chance you'll be fired immediately.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
   hrwillhear: {
     text: "Result: HR will hear about this.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
@@ -461,14 +461,14 @@ const screens = {
     text: "Result: Go tell them!",
     subheading: "Because they're a stranger. Maybe it's like a coffee shop that you frequent a lot or like the supermarket that you always go to. Then in which case yeah it would be a little weird if you ask them out and they said no and then you'd probably have to like completely change your shopping places. But like it's not significant enough of a burden or like a significant enough impact in your life potentially that's negative for you to like not do it. Life is short, I think you should just tell them.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
   yescelebrity: {
     text: "Result: You can tell them but they're never gonna know about it.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
@@ -476,7 +476,7 @@ const screens = {
     text: "Result: Yeah you should tell them.",
     subheading: "But I assume they already know you like them (assuming you matched and you both swiped right). They atleast know that you're physically attracted to them if you matched on a dating app.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
@@ -484,7 +484,7 @@ const screens = {
     text: "Result: You can tell them but there's a chance you won't be attracted to them irl.",
     subheading: "In which case, weigh your odds.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
@@ -492,7 +492,7 @@ const screens = {
     text: "Result: Tell them but it depends what you want out of this.",
     subheading: "Do you just want to hook up with them or be in a long term relationship? In which case, I don't think it's gonna happen at this point in time. I'm so sorry like I don't think it's gonna happen.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
@@ -500,7 +500,7 @@ const screens = {
     text: "Result: Tell them",
     subheading: "But it's likely they'll be too blinded by that other person to reciprocate your feelings. In which case, it's not even worth it.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   },
 
@@ -508,7 +508,7 @@ const screens = {
     text: "Result: Don't tell them.",
     subheading: "Unless you also want to be in a situationship with this person. Which you probably don't. Maybe you do. But most likely no. And you don't wanna be with this type of person anyways that will put you in a situationship. So I will say don't do it.",
     buttons: [
-      { label: "Go back to Home", nextScreen: "main" }
+      { label: "Go back to Home", nextScreen: "home" }
     ]
   }
 
@@ -652,7 +652,7 @@ export default function ClientHome() {
               </Button>
               <Button
                 variant="outlined"
-                onClick={() => setScreen('main')}
+                onClick={() => setScreen('home')}
                 sx={{
                   borderRadius: '4px',
                   padding: '10px 24px',
