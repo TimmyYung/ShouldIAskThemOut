@@ -542,7 +542,6 @@ export default function ClientHome() {
       setResult(resultText);
       setScreen('resultmath');
     } else {
-      // resultText = "You might be good but proceed with extreme caution and the willingness to risk your entire friendship.";
       setScreen('stillhavefeelings');
     }
 
