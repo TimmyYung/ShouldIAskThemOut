@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { Button, Typography, Box, TextField } from '@mui/material';
-
+import Link from 'next/link';
 
 const pageVariants = {
   initial: { 
@@ -43,7 +43,19 @@ const buttonVariants = {
 const screens = {
   home:{
     text:"Should I ask out my crush?",
-    subheading: "By: Timmy Yung",
+    subheading:      
+    (       <a 
+      href="https://github.com/TimmyYung/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ 
+        color: 'lightblue',
+        cursor: 'pointer',
+        textDecoration: 'underline'
+      }}
+    >
+    By: Timmy Yung
+  </a>),
     buttons: [
       { label: "Begin", nextScreen: "main" },
       { label: "[Simplfied Version]", nextScreen: "simplfied" }
@@ -61,7 +73,7 @@ const screens = {
 
   simplfied: {
     text: "Ask yourself these two questions.",
-    subheading: "1. What do I want out of this? (Date, hookup, casually date, have kids, etc.) \n 2. Is there any chance my crush will like me back?* \n *Ignore your answer to 2. And you should probably tell them anyways because you never know until you try. Don't let a website tell you want to do.",
+    subheading: "1. What do I want out of this? (Date, hookup, casually date, have kids, etc.) \n 2. Is there any chance my crush will like me back?* \n *Ignore your answer to 2 And you should probably tell them anyways because you never know until you try. Don't let a website tell you want to do.",
     buttons: [
       { label: "Go back to Home", nextScreen: "home"}
     ]
@@ -201,7 +213,7 @@ const screens = {
   },
 
   stillhavefeelings: {
-    text: "Do either of them still have feeling for eachother?",
+    text: "Do either of them still have feelings for eachother?",
     subheading: "You might be good but proceed with extreme caution and the willingness to risk your entire friendship.",
     buttons: [
       { label: "Yes/Idk", nextScreen: "yeshavefeelings" },
