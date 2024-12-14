@@ -2,6 +2,8 @@
 
 A funny decision tree website that helps users navigate question "Should I ask my crush out?" through an unnecessarily complex series of questions.
 
+![Home Screen](https://github.com/TimmyYung/ShouldIAskThemOut/blob/main/public/image.png)
+
 ## Features
 
 - Interactive decision flowchart with smooth animations
