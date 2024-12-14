@@ -568,7 +568,7 @@ export default function ClientHome() {
       justifyContent: 'center',
       bgcolor: '#2e3440', 
       color: '#d8dee9',
-      padding: '10rem',
+      padding: { xs: '1rem', sm: '2rem', md: '10rem' },
     }}>
       <AnimatePresence mode="wait">
         {screen === 'isitfucked' ? (
@@ -592,12 +592,13 @@ export default function ClientHome() {
                 marginBottom: 6,
                 letterSpacing: '0.1em',
                 color: '#e5e9f0', 
+                fontSize: { xs: '1.75rem', sm: '2.5rem', md: '3rem' }, 
               }}
             >
               Is it f***ed up for you to ask out your friend's ex?
             </Typography>
             
-            <Box sx={{ my: 3, display: 'flex', flexDirection: 'column', gap: 2, alignItems: 'center' }}>
+            <Box sx={{ my: 3, display: 'flex', flexDirection: 'column', gap: 2, alignItems: 'center', width: '100%', maxWidth: '300px', mx: 'auto'}}>
             <TextField
               label="Total time they dated (months)"
               type="number"
@@ -637,7 +638,7 @@ export default function ClientHome() {
   
             <Box sx={{ 
               display: 'flex', 
-              gap: 3, 
+              gap: { xs: 2, sm: 3 },
               justifyContent: 'center', 
               flexWrap: 'wrap',
               mt: 3
@@ -650,7 +651,7 @@ export default function ClientHome() {
                   padding: '10px 24px',
                   color: '#e5e9f0', 
                   borderColor: '#4c566a', 
-                  fontSize: '0.9rem',
+                  ffontSize: { xs: '0.8rem', sm: '0.9rem' },
                   letterSpacing: '0.05em',
                   textTransform: 'uppercase',
                   transition: 'all 0.3s ease',
