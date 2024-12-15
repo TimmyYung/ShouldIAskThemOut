@@ -15,7 +15,6 @@ A funny decision tree website that helps users navigate question "Should I ask m
 - Next.js 13+ with App Router
 - Material UI v5 for components and theming
 - Framer Motion for smooth page transitions
-- TypeScript for type safety
 
 ## Getting Started
 
