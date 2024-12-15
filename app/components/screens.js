@@ -16,7 +16,7 @@ export const screens = {
     </a>),
       buttons: [
         { label: "Begin", nextScreen: "main" },
-        { label: "[Simplfied Version]", nextScreen: "simplfied" }
+        { label: "[Simplified Version]", nextScreen: "simplified" }
       ]
     },
   
@@ -29,7 +29,7 @@ export const screens = {
       ]
     },
   
-    simplfied: {
+    simplified: {
       text: "Ask yourself these two questions.",
       subheading: "1. What do I want out of this? (Date, hookup, casually date, have kids, etc.) \n 2. Is there any chance my crush will like me back?* \n *Ignore your answer to 2 And you should probably tell them anyways because you never know until you try. Don't let a website tell you what to do.",
       buttons: [
@@ -123,9 +123,9 @@ export const screens = {
     },
   
     friends: {
-      text: "How did you meet eachother?",
+      text: "How did you meet each other?",
       buttons: [
-        { label: "Your friends with your crush.", nextScreen: "friendswithcrush" },
+        { label: "You're friends with your crush.", nextScreen: "friendswithcrush" },
         { label: "You met through friends but not necessarily friends with your crush.", nextScreen: "metthroughfriends" }
       ]
     },
@@ -138,7 +138,7 @@ export const screens = {
       ]
     },
   
-    friendswithcrush: {
+    widerfriendgroup: {
       text: "Was your crush ever seeing someone else in your friend group?",
       buttons: [
         { label: "Yes", nextScreen: "yesseeingsomeone" },
@@ -171,7 +171,7 @@ export const screens = {
     },
   
     stillhavefeelings: {
-      text: "Do either of them still have feelings for eachother?",
+      text: "Do either of them still have feelings for each other?",
       subheading: "You might be good but proceed with extreme caution and the willingness to risk your entire friendship.",
       buttons: [
         { label: "Yes/Idk", nextScreen: "yeshavefeelings" },
@@ -191,7 +191,7 @@ export const screens = {
       text: "You sure?",
       buttons: [
         { label: "No I'm not sure.", nextScreen: "yeshavefeelings" },
-        { label: "Yes I'm sure my crush and their ex do not have any lingering feelings for eachother", nextScreen: "yeahhhhhdoit" }
+        { label: "Yes I'm sure my crush and their ex do not have any lingering feelings for each other", nextScreen: "yeahhhhhdoit" }
       ]
     },
   
@@ -266,7 +266,7 @@ export const screens = {
       text: "Do you actually like them or do you only have a crush on them because you're in forced proximity with them?",
       buttons: [
         { label: "No I actually like them.", nextScreen: "areyouverysure" },
-        { label: "I think its forced proximity.", nextScreen: "dontpurpose" },
+        { label: "I think it's forced proximity.", nextScreen: "dontpurpose" },
       ]
     },
   
@@ -407,7 +407,7 @@ export const screens = {
   
     tellthemmarriage: {
       text: "Result: Tell them!",
-      subheading: "Either the best relationship of your life and you'll be married or make things incredibly awkward and uncomfortable for yourself everyday when you're forced to see them.",
+      subheading: "It will either be the best relationship of your life and you'll be married or make things incredibly awkward and uncomfortable for yourself every day when you're forced to see them.",
       buttons: [
         { label: "Go back to Home", nextScreen: "home" }
       ]
@@ -444,7 +444,7 @@ export const screens = {
   
     yesapp: {
       text: "Result: Yeah you should tell them.",
-      subheading: "But I assume they already know you like them (assuming you matched and you both swiped right). They atleast know that you're physically attracted to them if you matched on a dating app.",
+      subheading: "But I assume they already know you like them (assuming you matched and you both swiped right). They at least know that you're physically attracted to them if you matched on a dating app.",
       buttons: [
         { label: "Go back to Home", nextScreen: "home" }
       ]
