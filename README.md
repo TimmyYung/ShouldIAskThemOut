@@ -1,6 +1,6 @@
 # [ShouldIAskThemOut](https://shouldiask.vercel.app/) 🌹
 
-A funny decision tree website that helps users navigate question "Should I ask my crush out?" through an unnecessarily complex series of questions.
+A funny decision tree website that helps users navigate the question "Should I ask my crush out?" through an unnecessarily complex series of questions.
 
 ![Home Screen](https://github.com/TimmyYung/ShouldIAskThemOut/blob/main/public/image.png)
 
